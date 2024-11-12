@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            margin: 0;
+            background-color: #111;
+            overflow-x: hidden;
+        }
+        .verbs {
+            display: flex;
+            justify-content: space-evenly;
+            flex-direction:column;
+            background-color: #111;
+            width: 100%;
+            max-width: 400px;
+            border: solid 0px gray;
+            border-radius:30px;
+            margin: auto;
+        }
+        .verb {
+            color: white;
+            padding: 4px;
+            text-align: center;
+        }
+        span {
+            color: #59ce8f;
+        }
+        .exemple {
+            color: gray;
+            font-weight: 600;
+            letter-spacing: .5px;
+            font-family: monospace;
+            font-size: 15px;
+        }
+        .point {
+            text-align: center;
+            width: 50%;
+            margin: 50px auto ;
+            color: #59c;
+            font-family: monospace;
+            font-size: 45px;
+            position: relative;
+        }
+        .point::after {
+            content: "";
+            position: absolute;
+            top: 100%;
+            left: 15%;
+            border-radius: 40px;
+            width: 40%;
+            height: 6px;
+            background-color: #59c;
+        }
+    </style>
+</head>
+<body>
+    <div class="verbs">
+        <h1 class="point">verbs</h1>
+        <div class="verb">
+            <h1>Sein</h1>
+            <p>Ich
+                <span>bin</span>
+            </p>
+            <p>du
+                <span>bist</span>
+            </p>
+            <p>sie/er/es
+                <span>ist</span>
+            </p>
+            <p>wir
+                <span>sind</span>
+            </p>
+            <p>ihr
+                <span>seid</span>
+            </p>
+            <p>Sie
+                <span>sind</span>
+            </p>
+            <p class="exemple">
+            Ich bin Nour!
+            <br>
+            er ist kali
+            <br>
+            sie sind kali und Nour 
+            <br>
+            </p>
+        </div>
+        
+        <div class="verb">
+            <h1>heiBen</h1>
+           
+            <p>Ich
+                <span>heiBe</span>
+            </p>
+            <p>du
+                <span>heiBt</span>
+            </p>
+            <p>sie/er/es
+                <span>heiBt</span>
+            </p>
+            <p>wir
+                <span>heiBen</span>
+            </p>
+            <p>ihr
+                <span>heiBt</span>
+            </p>
+            <p>Sie
+                <span>HeiBen</span>
+            </p>
+            <p class="exemple">
+            Ich heiBe Nour!
+            <br>
+            er heiBt kali
+            <br>
+            sie heiBen kali und Nour 
+            <br>
+            du heiBt arch
+            <br>
+            sie heiBt fedora
+            </p>
+        </div>
+        <div class="verb">
+            <h1>kommen</h1>
+            <p>Ich
+                <span>komme</span>
+            </p>
+            <p>du
+                <span>kommst</span>
+            </p>
+            <p>sie/er/es
+                <span>kommt</span>
+            </p>
+            <p>wir
+                <span>kommen</span>
+            </p>
+            <p>ihr
+                <span>kommet</span>
+            </p>
+            <p>Sie
+                <span>kommen</span>
+            </p>
+            <p class="exemple">
+            Ich komme aus ubunto
+            <br>
+            er kommt aus parrot
+            <br>
+            sie kommen aus debian 
+            <br>
+            </p>
+        </div>
+        <div class="verb">
+            <h1>wohnen</h1>
+
+            <p>Ich
+                <span>wohne</span>
+            </p>
+            <p>du
+                <span>wohnst</span>
+            </p>
+            <p>sie/er/es
+                <span>wohnt</span>
+            </p>
+            <p>wir
+                <span>wohnen</span>
+            </p>
+            <p>ihr
+                <span>wohnt</span>
+            </p>
+            <p>Sie
+                <span>wohnen</span>
+            </p>
+            <p class="exemple">
+            Ich wohne in kali!
+            <br>
+            er wohnt in sbiba
+            <br>
+            hallo, ich heiBe Nour und Ich komme aus sbiba, ich wohne in kali.<br>
+            das ist kali und er wohnt in GNU, er kommt aus UNIX!
+            <br>
+            </p>
+        </div>
+        <div class="verb">
+            <h1>haben</h1>
+            <p>Ich
+                <span>habe</span>
+            </p>
+            <p>du
+                <span>hast</span>
+            </p>
+            <p>sie/er/es
+                <span>hat</span>
+            </p>
+            <p>wir
+                <span>haben</span>
+            </p>
+            <p>ihr
+                <span>habt</span>
+            </p>
+            <p>Sie
+                <span>haben</span>
+            </p>
+            <p class="exemple">
+            Ich habe kali
+            <br>
+            er hat ubunto
+            <br>
+            Nour und tsX haben GNU 
+            <br>
+            </p>
+        </div>
+        <div class="verb">
+            <h1>sprechen</h1>
+            <p>Ich
+                <span>spreche</span>
+            </p>
+            <p>du
+                <span>sprichst</span>
+            </p>
+            <p>sie/er/es
+                <span>shpricht</span>
+            </p>
+            <p>wir
+                <span>sprechen</span>
+            </p>
+            <p>ihr
+                <span>shpricht</span>
+            </p>
+            <p>Sie
+                <span>sprechen</span>
+            </p>
+            <p class="exemple">
+            Ich spreche arabic!
+            <br>
+            er sprichst französisch
+            <br>
+            sie sprechen arabic
+            <br>
+            hallo, ich spreche deutch!
+            </p>
+        </div>
+        <div class="verb">
+            <h1>arbeiten</h1>
+            <p>Ich
+                <span>arbeite</span>
+            </p>
+            <p>du
+                <span>arbeitest</span>
+            </p>
+            <p>sie/er/es
+                <span>arbeitet</span>
+            </p>
+            <p>wir
+                <span>arbeiten</span>
+            </p>
+            <p>ihr
+                <span>arbeitet</span>
+            </p>
+            <p>Sie
+                <span>arbeiten</span>
+            </p>
+            <p class="exemple">
+            Ich arbeite!
+            <br>
+            er arbeitest
+            <br>
+            sie arbeiten 
+            <br>
+            </p>
+        </div>
+        <div class="verb">
+            <h1>questions:</h1>
+            <p>age: wie <strong style="color: #59cef8;">alt</strong> bist du?</p>
+            <p>answer: ich bin siebzehn</p>
+            <p>job: was ist ihr <strong style="color: #59cef8;">beruf?</strong></p>
+            <p>answer: ich arbeite als ...</p>
+        </div>
+        <div class="verb">
+            <h1>small paragraphe</h1>
+            <p>hallo! ich heiBe Nour yahyaoui, ich komme aus tunisien und ich wohne in deutch. ich bin seibzehn und ich spreche dray sparens: deutch, französisch und english. meine muter heisst D und mein fater heisst C. ich arbeite swishter bruder, sie heiBen iyed und taha und du ? wie alt bist du und wo wohnst du und woher kommst du??</p>
+        </div>
+    </div>
+</body>
+</html>
